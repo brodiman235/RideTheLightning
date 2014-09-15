@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8857587019C666E200FF5024 /* RTLSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8857586F19C666E200FF5024 /* RTLSegment.m */; };
+		8857587319C6693100FF5024 /* RTLSegmentNodeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8857587219C6693100FF5024 /* RTLSegmentNodeFactory.m */; };
 		8860C91819C64B6B0091E8C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8860C91719C64B6B0091E8C6 /* main.m */; };
 		8860C91B19C64B6B0091E8C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8860C91A19C64B6B0091E8C6 /* AppDelegate.m */; };
 		8860C91E19C64B6B0091E8C6 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8860C91D19C64B6B0091E8C6 /* GameScene.m */; };
@@ -29,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8857586E19C666E200FF5024 /* RTLSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLSegment.h; sourceTree = "<group>"; };
+		8857586F19C666E200FF5024 /* RTLSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLSegment.m; sourceTree = "<group>"; };
+		8857587119C6693100FF5024 /* RTLSegmentNodeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLSegmentNodeFactory.h; sourceTree = "<group>"; };
+		8857587219C6693100FF5024 /* RTLSegmentNodeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLSegmentNodeFactory.m; sourceTree = "<group>"; };
 		8860C91219C64B6B0091E8C6 /* RideTheLightning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideTheLightning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8860C91619C64B6B0091E8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8860C91719C64B6B0091E8C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,7 +102,11 @@
 				8860C92419C64B6B0091E8C6 /* Main.storyboard */,
 				8860C92719C64B6B0091E8C6 /* Images.xcassets */,
 				8860C92919C64B6B0091E8C6 /* LaunchScreen.xib */,
+				8857586E19C666E200FF5024 /* RTLSegment.h */,
+				8857586F19C666E200FF5024 /* RTLSegment.m */,
 				8860C91519C64B6B0091E8C6 /* Supporting Files */,
+				8857587119C6693100FF5024 /* RTLSegmentNodeFactory.h */,
+				8857587219C6693100FF5024 /* RTLSegmentNodeFactory.m */,
 			);
 			path = RideTheLightning;
 			sourceTree = "<group>";
@@ -229,6 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8860C92319C64B6B0091E8C6 /* GameViewController.m in Sources */,
+				8857587319C6693100FF5024 /* RTLSegmentNodeFactory.m in Sources */,
+				8857587019C666E200FF5024 /* RTLSegment.m in Sources */,
 				8860C91B19C64B6B0091E8C6 /* AppDelegate.m in Sources */,
 				8860C91E19C64B6B0091E8C6 /* GameScene.m in Sources */,
 				8860C91819C64B6B0091E8C6 /* main.m in Sources */,
@@ -424,6 +436,7 @@
 				8860C93C19C64B6B0091E8C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8860C93D19C64B6B0091E8C6 /* Build configuration list for PBXNativeTarget "RideTheLightningTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +445,7 @@
 				8860C93F19C64B6B0091E8C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
